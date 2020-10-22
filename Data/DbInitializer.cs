@@ -19,7 +19,7 @@ namespace Cosarca_Roxana_Lab2.Data
             {
                 new Book{Title="Baltagul",Author="Mihail Sadoveanu",Price=Decimal.Parse("22")},
                 new Book{Title="Enigma Otiliei",Author="George Calinescu",Price=Decimal.Parse("18")},
-                new Book{Title="Maytrei",Author="Mircea Eliade",Price=Decimal.Parse("27")}
+                new Book{Title="Maytrei",Author="Mircea Eliade"}
             };
             foreach (Book s in books)
             {
@@ -40,10 +40,10 @@ namespace Cosarca_Roxana_Lab2.Data
             context.SaveChanges();
             var orders = new Order[]
             {
-                   new Order{BookID=1,CustomerID=1050},
-                   new Order{BookID=3,CustomerID=1045},
-                   new Order{BookID=1,CustomerID=1045},
-                   new Order{BookID=2,CustomerID=1050},
+                   new Order{BookID=1,CustomerID=1050, OrderDate=DateTime.Parse("2020-07-08")},
+                   new Order{BookID=3,CustomerID=1045, OrderDate=DateTime.Parse("2020-06-18")},
+                   new Order{BookID=1,CustomerID=1045, OrderDate=DateTime.Parse("2020-09-10")},
+                   new Order{BookID=2,CustomerID=1050, OrderDate=DateTime.Parse("2020-10-06")},
             };
             foreach (Order e in orders)
             {
