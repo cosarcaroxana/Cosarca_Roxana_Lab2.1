@@ -1,4 +1,4 @@
-﻿@model Cosarca_Roxana_Lab2.Models.Publishers
+﻿@model LibraryModel.Models.Publishers
 
 @{
     ViewData["Title"] = "Edit";
@@ -33,7 +33,7 @@
                             @{
                                 int cnt = 0;
 
-                                List<Cosarca_Roxana_Lab2.Models.LibraryViewModels.PublishedBookData> books =
+                                List<LibraryModel.Models.LibraryViewModels.PublishedBookData> books =
                                 ViewBag.Books;
                                 foreach (var book in books)
                                 {

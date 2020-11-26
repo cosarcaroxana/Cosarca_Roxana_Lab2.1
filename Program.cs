@@ -7,7 +7,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.DependencyInjection;
-using Cosarca_Roxana_Lab2.Data;
+using LibraryModel.Data;
 
 namespace Cosarca_Roxana_Lab2
 {

@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29709.97
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cosarca_Roxana_Lab2", "Cosarca_Roxana_Lab2.csproj", "{D6FFB8F5-F78A-4D3C-8F49-77F5266A3BED}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cosarca_Roxana_Lab2", "Cosarca_Roxana_Lab2.csproj", "{D6FFB8F5-F78A-4D3C-8F49-77F5266A3BED}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryModel", "..\LibraryModel\LibraryModel.csproj", "{9E93BFF2-D179-4468-BF66-30C4B36526B7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LibraryWebAPI", "..\LibraryWebAPI\LibraryWebAPI.csproj", "{028915B9-5546-40EC-8AE7-CC94EA753F4F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{D6FFB8F5-F78A-4D3C-8F49-77F5266A3BED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D6FFB8F5-F78A-4D3C-8F49-77F5266A3BED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D6FFB8F5-F78A-4D3C-8F49-77F5266A3BED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9E93BFF2-D179-4468-BF66-30C4B36526B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9E93BFF2-D179-4468-BF66-30C4B36526B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9E93BFF2-D179-4468-BF66-30C4B36526B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9E93BFF2-D179-4468-BF66-30C4B36526B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{028915B9-5546-40EC-8AE7-CC94EA753F4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{028915B9-5546-40EC-8AE7-CC94EA753F4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{028915B9-5546-40EC-8AE7-CC94EA753F4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{028915B9-5546-40EC-8AE7-CC94EA753F4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
